@@ -3,7 +3,6 @@ import reset from "styled-reset";
 
 const GlobalStyle = createGlobalStyle`
     @import url('https://fonts.googleapis.com/css?family=Maven+Pro');
-
     ${reset};
     body {
         font-family: 'Maven Pro', sans-serif;
@@ -17,7 +16,6 @@ const GlobalStyle = createGlobalStyle`
         margin: 0 auto;
         padding: 20px;
     }
-
 
 
 `;

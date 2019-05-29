@@ -11,3 +11,23 @@ export const HOME_PAGE = gql`
     }
   }
 `;
+
+export const MOVIE_DETAIL = gql`
+  # 이 부분은 apollo에 해당하는 부분
+  query getMovieDetails($movieId: Int!) {
+    #  이 부분은 server
+    movie(id: $movieId) {
+      title
+      medium_cover_image
+      rating
+      description_intro
+      language
+      genres
+    }
+    suggestions(id: $movieId) {
+      medium_cover_image
+      title
+      rating
+    }
+  }
+`;
