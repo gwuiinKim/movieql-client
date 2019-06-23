@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import reset from "styled-reset";
 
-const GlobalStyle = createGlobalStyle`
+export default createGlobalStyle`
     @import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500');
     ${reset};
     body {
@@ -19,5 +19,3 @@ const GlobalStyle = createGlobalStyle`
 
 
 `;
-
-export default GlobalStyle;
