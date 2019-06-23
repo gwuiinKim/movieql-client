@@ -1,3 +1,7 @@
+# preview
+
+Try it on [Netlify](https://loving-aryabhata-bb2dad.netlify.com/#/)
+
 ## movieql-client
 
 Client for the MovieQL API built with Apollo
